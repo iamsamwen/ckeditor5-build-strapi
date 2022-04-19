@@ -36,7 +36,7 @@ class ExtendHTMLSupport extends Plugin {
 
         dataFilter.allowElement( 'element-block' );
 
-                // Inline object element
+        // Inline object element
         dataSchema.registerInlineElement( {
             view: 'object-inline',
             model: 'myObjectInline',
